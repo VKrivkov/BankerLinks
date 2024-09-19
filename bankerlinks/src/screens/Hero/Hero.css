@@ -1,0 +1,68 @@
+/* BREAKPOINTS:
+1600 padding-top/bottom: 100px
+1280 bodyfont: 18px; padding-top/bottom: 80px
+1050 
+700  padding-top/bottom: 60px
+550
+450
+
+*/
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden; 
+}
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.hero-container {
+    width: 100%;
+    padding: 240px 5vw 140px 5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image-container{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(0deg, rgba(26, 34, 85, 0.20) 0%, rgba(26, 34, 85, 0.20) 100%), url(../../assets/hero.webp) lightgray 50% / cover no-repeat;
+    border-radius: 20px;
+}
+
+
+.headline-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(90deg, #2D3B97 0.2%, #21295D 99.44%);
+    padding: 0px 5vw; 
+
+    
+}
+
+
+.headline, .sub-headline{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.sub-headline{
+    font-size: 50px;
+    font-weight: 500;
+}

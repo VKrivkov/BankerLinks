@@ -1,0 +1,251 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
+  align-items: center;
+  position: fixed;
+  height: 100px;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  padding: 0px 5vw;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 32px 10px rgba(0, 0, 0, 0.10);
+}
+
+ 
+
+.navbar-center{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  color: #090909;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.navbar-side{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.nav-link{
+  position: relative;
+}
+
+.navbar-brand{
+  position: absolute;
+  left: 5vw;
+}
+
+.navbar-brand img{
+  width: 275px;
+  height: 40px;
+
+}
+
+
+.nav-link:hover{
+  color:  #2D3B97; /* or use border-bottom if that's the design */
+  transition: color 0.2s ease-in-out; /* Transition effect for color property */
+}
+
+.nav-link::after{
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  width: 107%; /* Width of the custom underline */
+  height: 2px; /* Height of the custom underline */
+  background-color: #EE220D; /* Color of the custom underline */
+  bottom: -3px; /* Positioning below the text */
+  left: 50%; /* Centering the line */
+  transform: translateX(-50%); /* Centering the line */
+  opacity: 0; /* Hide the line initially */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-link:hover::after{
+  opacity: 1; /* Show the line on hover */
+}
+
+.burger-menu {
+  display: none; /* Hidden by default, will be displayed in tablet view */
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 1080px) {
+
+
+  .navbar-label{
+    display: block;
+    font-family: Inter;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin-top: 0;   
+    height: 75px;
+    border-width: 1px;
+    position: fixed;  /* Fix the navbar's position relative to the viewport */
+    z-index: 1000;   /* Ensure the navbar is above other elements */
+    border-bottom: 1px solid #fff;
+    transition: height 0.3s ease;
+
+  }
+
+
+
+  .navbar.show{
+    display: flex;
+    gap: 50px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    right: 5vw; 
+    top: 30px;
+  }
+
+  .navbar-center {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.3s ease;
+  }
+
+
+   .navbar-center.show {
+    padding: 80px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    column-gap: 50px;
+    row-gap: 25px;
+    justify-content: center;
+    text-align: center;
+  } 
+
+  
+
+  
+
+  .navbar-side {
+    display: none; 
+  }
+  .navbar-side.show {
+    display: flex;
+    padding: 10px;
+    grid-column: 2/4;
+    justify-content: center;
+  }
+
+
+  .nav-link {
+    display: block;
+    margin: 20px 0;
+  }
+
+
+
+  .navbar-brand{
+    top: 23px;
+  }
+  .navbar-brand img{
+    width: 195px;
+    height: 28px;
+  }
+
+
+}
+
+
+@media (max-width: 780px) {
+
+
+
+  .navbar.show {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:0px;
+  }
+
+
+  .navbar-center.show {
+    padding: 50px 50px 0px 30px;
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: repeat(5, 70px);
+    gap: 0px;
+    align-self: flex-start;
+    justify-content: center;
+    text-align: start;    
+  } 
+
+  .nav-link{
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+
+  .navbar-side.show {
+    justify-content: flex-start;
+    grid-row: 6/7;
+  }
+
+
+
+  .burger-menu {
+    display: block; /* Show the burger menu */
+    position: absolute;
+  }
+
+  .nav-link, .contact-us {
+    display: block;
+    font-size: 22px;
+    text-transform: uppercase;
+    }
+
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.navbar-center a {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Keep your existing media query for larger screens, and you may need to adjust it */
