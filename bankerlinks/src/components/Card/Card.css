@@ -8,14 +8,13 @@
 
 .welcome-card-container h5{
     color: #2D3B97;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 400;
     padding-left: 20px;
 }
 
 .welcome-card-container p{
-    padding: 20px;
-    padding-bottom: 35px;
+    padding: 35px 20px;
     color: #090909;
     font-size: 22px;
     font-weight: 400;

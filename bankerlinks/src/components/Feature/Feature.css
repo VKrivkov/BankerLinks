@@ -9,7 +9,7 @@
 
 .feature-head{
     display: inline-flex;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     color: #2D3B97;
     gap: 35px;
@@ -17,10 +17,10 @@
 }
 
 .feature-head img{
-    width: 110px;
+    width: 80px;
 }
 .feature-head h5{
-    width: 250px;
+    width: 220px;
 }
 .feature-card-container p{
     font-size: 22px;

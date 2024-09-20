@@ -4,6 +4,7 @@ import ContactCard from '../../components/ContactCard/ContactCard'
 import Icon1 from '../../assets/Icon7.png'
 import Icon2 from '../../assets/Icon8.png'
 import Icon3 from '../../assets/Icon9.png'
+import Location from '../../components/Location/Location'
 
 const Contact = () => {
   return (
@@ -34,6 +35,10 @@ const Contact = () => {
           contact="info@bankerlinks.com"
         />
       </div>
+      {/* <Location/> */}
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.6699671533743!2d6.134122176507585!3d49.60397287144286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479548ce66a88d57%3A0xf66509b7a650fb98!2s9%20Rue%20du%20Laboratoire%2C%201911%20Gare%20Luxembourg!5e0!3m2!1sru!2slu!4v1726846407947!5m2!1sru!2slu"
+ width="1920" height="500" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
     </div>
   )
 }
