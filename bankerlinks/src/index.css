@@ -1,7 +1,7 @@
 /* Thin (300) for lightweight text */
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/Inter-static/Inter_18pt-Thin.ttf') format('truetype');
+  src: url('./fonts/Inter-static/Inter_24pt-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }

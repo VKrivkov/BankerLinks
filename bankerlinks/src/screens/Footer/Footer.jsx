@@ -52,14 +52,14 @@ const Footer = () => {
         </div>
         <div className='contact-info-container'>
           <h6>Contact us</h6>
-          <p>creative0.0layer@gmail.com</p>
-          <a href='https://t.me/CreativeLayer'><p> <u>@CreativeLayer</u></p></a>
-          <a href='https://wa.me/35797816242'><p> <u>https://wa.me/35797816242</u></p></a>
+          <p>info@bankerlinks.com</p>
+          <p>+352 621 405 208</p>
+          <p>9, rue du Laboratoire, L-​1911 Luxembourg</p>
         </div>
         <div className='navigation-footer'>
           <a href="#home" onClick={(e) => {e.preventDefault(); scrollToSection('home');}} className="footer-link">About</a>
-          <a href="#price" onClick={(e) => {e.preventDefault(); scrollToSection('price');}} className="footer-link">Team</a>
-          <a href="#gallery" onClick={(e) => {e.preventDefault(); scrollToSection('gallery');}} className="footer-link">Features</a>
+          <a href="#price" onClick={(e) => {e.preventDefault(); scrollToSection('team');}} className="footer-link">Team</a>
+          <a href="#gallery" onClick={(e) => {e.preventDefault(); scrollToSection('features');}} className="footer-link">Features</a>
           <a href="#contact" onClick={(e) => {e.preventDefault(); scrollToSection('contact');}} className="footer-link">Contact</a>
         </div>
         <div className='nobody-reads-container'>

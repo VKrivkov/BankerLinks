@@ -3,6 +3,7 @@
     flex-direction: column;
     font-family: Inter;
     height: 140px;
+    color: #090909;
     justify-content: space-between;
 }
 
@@ -24,6 +25,7 @@
     font-size: 22px;
     font-weight: 400;
     padding-top: 10px;
+    
 }
 
 .line-container{

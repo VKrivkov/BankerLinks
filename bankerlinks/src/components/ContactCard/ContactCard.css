@@ -1,0 +1,36 @@
+.contact-card-container{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    width: 400px;
+    align-items: center;
+    color: #090909;
+    text-align: center;
+    height: 450px;
+    justify-content: space-between;
+}
+
+
+.contact-card-container p{
+    padding: 20px;
+    color: #2D3B97;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.contact-card-icon{
+    width: 80px;
+}
+
+.contact-card-text h5{
+    color: #2D3B97;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.contact-card-text p{
+    color: #090909;
+    font-size: 22px;
+    font-weight: 400;
+}
