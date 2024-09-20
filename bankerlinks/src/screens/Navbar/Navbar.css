@@ -5,7 +5,7 @@
   width: 100vw;
   align-items: center;
   position: fixed;
-  height: 100px;
+  height: 80px;
   z-index: 100;
   top: 0px;
   left: 0px;
@@ -18,7 +18,7 @@
 
 .navbar-center{
   font-family: Inter;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   color: #090909;
   display: flex;
@@ -46,8 +46,8 @@
 }
 
 .navbar-brand img{
-  width: 275px;
-  height: 40px;
+  width: 206.25px;
+  height: 30px;
 
 }
 

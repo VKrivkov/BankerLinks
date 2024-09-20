@@ -24,7 +24,7 @@ html, body {
 
 .hero-container {
     width: 100%;
-    padding: 240px 5vw 140px 5vw;
+    padding: 220px 5vw 120px 5vw;
     position: relative;
     display: flex;
     flex-direction: column;

@@ -10,7 +10,7 @@
     display:flex;
     flex-direction: row;
     gap: 15px;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     color: #2D3B97;
 }
@@ -21,7 +21,7 @@
 }
 
 .member-card p{
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
     padding-top: 10px;
 }

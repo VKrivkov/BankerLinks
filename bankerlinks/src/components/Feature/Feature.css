@@ -1,0 +1,27 @@
+.feature-card-container{
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    max-width: 500px;
+    align-items: flex-start;
+}
+
+.feature-head{
+    display: inline-flex;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2D3B97;
+    gap: 35px;
+    align-items: center;
+}
+
+.feature-head img{
+    width: 110px;
+}
+.feature-head h5{
+    width: 250px;
+}
+.feature-card-container p{
+    font-size: 22px;
+    padding-top: 35px;
+}
