@@ -49,6 +49,7 @@ const Footer = () => {
       <div className='footer-first-level'>
         <div className='company-container'>
           <img onClick={() => scrollToSection('home')} src={Logo} alt="Logo" />
+          <p>BankerLinks s.à.r.l.</p>
         </div>
         <div className='contact-info-container'>
           <h6>Contact us</h6>

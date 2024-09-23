@@ -24,7 +24,7 @@ html, body {
 
 .hero-container {
     width: 100%;
-    padding: 220px 5vw 120px 5vw;
+    padding: 200px 5vw 120px 5vw;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -65,4 +65,131 @@ html, body {
 .sub-headline{
     font-size: 50px;
     font-weight: 500;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 1600px){
+
+    .hero-container {
+        padding: 180px 5vw 100px 5vw;
+    }
+
+    .headline{
+        font-size: 60px;
+    }
+    
+    .sub-headline{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .headline-container{
+        height: 200px;
+    }    
+
+    .image-container{
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 1300px){
+
+  
+    .headline{
+        font-size: 50px;
+    }
+    
+    .sub-headline{
+        font-size: 30px;
+    }
+
+    .headline-container{
+        height: 200px;
+    }    
+
+
+    .image-container{
+        height: 425px;
+    }
+
+    .headline-container{
+        height: 160px;
+    } 
+
+}
+
+
+@media (max-width: 1080px){
+
+    .hero-container {
+        padding: 150px 5vw 75px 5vw;
+    }
+  
+    .headline{
+        font-size: 40px;
+    }
+    
+    .sub-headline{
+        font-size: 25px;
+    }
+ 
+    .image-container{
+        height: 400px;
+    }
+
+    .headline-container{
+        height: 140px;
+    } 
+
+}
+
+
+@media (max-width: 863px){
+
+  
+    .headline{
+        font-size: 40px;
+    }
+    
+    .sub-headline{
+        font-size: 25px;
+    }
+
+
+    .image-container{
+        height: 400px;
+    }
+
+    .headline-container{
+        height: 225px;
+    } 
+
+}
+
+
+@media (max-width: 460px){
+
+    .hero-container {
+        padding: 125px 5vw 50px 5vw;
+    }
+  
+    .headline{
+        font-size: 30px;
+    }
+    
+    .sub-headline{
+        font-size: 16px;
+    }
+ 
+
+    .image-container{
+        height: 340px;
+    }
+
+    .headline-container{
+        height: 160px;
+    } 
+
 }

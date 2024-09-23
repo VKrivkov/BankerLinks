@@ -24,11 +24,12 @@
 
 .company-container img{
 
-   height: 35px;
-
+   max-width: 200px;
 }
 
-
+.company-container p{
+    opacity: 0.5;
+}
 
 
 
@@ -178,10 +179,11 @@ p.Rights{
         padding: 50px 50px 25px 50px;
     }
 
-
-    .company-container h5{
-    
-        font-size: 20px;
+    .company-container{
+        justify-content: flex-start;
+    }
+    .company-container p{
+        padding-top: 20px;
     }
     
     .company-container h6{
