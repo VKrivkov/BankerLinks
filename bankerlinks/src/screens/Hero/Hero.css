@@ -161,9 +161,14 @@ html, body {
 }
 
 
+@media (max-width: 550px){
+    .hero-container {
+        padding: 125px 5vw 50px 5vw;
+    }
+}
+
+
 @media (max-width: 460px){
-
-
     .headline{
         font-size: 37px;
     }
@@ -171,12 +176,7 @@ html, body {
     .sub-headline{
         font-size: 20px;
     }
-
-
-    .hero-container {
-        padding: 125px 5vw 50px 5vw;
-    }
-
+    
     .image-container{
         height: 500px;
     }

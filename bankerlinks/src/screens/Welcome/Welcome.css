@@ -43,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    padding: 0px 5vw;
 }
 
 
@@ -220,10 +221,62 @@
     }
 }
 
+@media (max-width: 550px){
 
-@media (max-width: 460px){
     .welcome-container{
         padding: 0  0 50px 0;
     }
 
+    .header-container {
+        gap: 9px;
+      }
+      
+    .header-container h2{
+        font-size: 30px;
+    }
+    
+    .overlay img{
+        height: 23px;
+    }
+    
+    .header{
+        gap: 5px;
+        text-align: center;
+    }
+    .header p{
+        font-size: 18px;
+    }
+
+    
+    .chat-question{
+        font-size: 20px;
+        padding: 15px 25px;
+
+    }
+    
+    
+    .chat-answer{
+        font-size: 16px;
+        padding: 15px 25px;
+        width: 80%;
+
+    }
 }
+
+@media (max-width: 390px){
+
+    .header-container {
+        gap: 5px;
+        flex-direction: column;
+      }
+      
+    .header{
+        gap: 10px;
+        text-align: center;
+
+    }
+}
+
+
+
+

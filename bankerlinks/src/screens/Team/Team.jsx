@@ -6,8 +6,8 @@ import Member from '../../components/Member/Member';
 
 const Team = () => {
   return (
-    <div className='team-container' id='team'>
-      <div className='header'>
+    <>
+    <div className='header'>
         <div className="header-container">
         <div className="overlay">
             <img src={bankerlinks} alt="BankerLinks" className="overlay-image" />
@@ -19,35 +19,36 @@ const Team = () => {
         </div>
         <p>Dedicated professionals with deep industry expertise</p>
       </div>
-
-      <img className = 'team-image' src = {team} alt = 'BankerLinks team'/>
-      <div className='member-container'>
-        <Member 
-          name = "Team Member"
-          position = "Position"
-          p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-          color='#2D3B97'
-        />
-         <Member 
-          name = "Team Member"
-          position = "Position"
-          p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-          color='#EE220D'
-        />
-         <Member 
-          name = "Team Member"
-          position = "Position"
-          p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-          color='#EE220D'
-        />
-         <Member 
-          name = "Team Member"
-          position = "Position"
-          p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-          color='#2D3B97'
-        />
+      <div className='team-container' id='team'>
+        <img className = 'team-image' src = {team} alt = 'BankerLinks team'/>
+        <div className='member-container'>
+          <Member 
+            name = "Team Member"
+            position = "Position"
+            p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            color='#2D3B97'
+          />
+          <Member 
+            name = "Team Member"
+            position = "Position"
+            p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            color='#EE220D'
+          />
+          <Member 
+            name = "Team Member"
+            position = "Position"
+            p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            color='#EE220D'
+          />
+          <Member 
+            name = "Team Member"
+            position = "Position"
+            p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            color='#2D3B97'
+          />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
