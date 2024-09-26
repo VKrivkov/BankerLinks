@@ -127,20 +127,12 @@ html, body {
         padding: 150px 5vw 75px 5vw;
     }
   
-    .headline{
-        font-size: 40px;
-    }
-    
-    .sub-headline{
-        font-size: 25px;
-    }
- 
     .image-container{
         height: 400px;
     }
 
     .headline-container{
-        height: 140px;
+        height: 200px;
     } 
 
 }
@@ -163,7 +155,7 @@ html, body {
     }
 
     .headline-container{
-        height: 225px;
+        height: 200px;
     } 
 
 }
@@ -174,22 +166,13 @@ html, body {
     .hero-container {
         padding: 125px 5vw 50px 5vw;
     }
-  
-    .headline{
-        font-size: 30px;
-    }
-    
-    .sub-headline{
-        font-size: 16px;
-    }
- 
 
     .image-container{
-        height: 340px;
+        height: 500px;
     }
 
     .headline-container{
-        height: 160px;
+        height: 250px;
     } 
 
 }
