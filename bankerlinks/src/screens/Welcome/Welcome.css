@@ -175,39 +175,48 @@
         padding: 0  0 75px 0;
     }
     
-
-    .card-container{
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-        gap: 80px;
-        /* grid-auto-flow: column; */
-        
-    }
-
-    .card-container > :nth-child(3) {
-        grid-column: span 2; /* This will make the 3rd item span both columns */
-        justify-self: center; /* Center it horizontally */
-        align-self: center;   /* Center it vertically */
-    }
-
-
-
-}
-
-
-
-@media (max-width: 750px){
-
     .card-container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 60px;
+    }
+}
+
+
+
+@media (max-width: 860px){
+
+    .header-container {
+        gap: 12px;
+      }
+      
+    .header-container h2{
+        font-size: 40px;
+    }
+    
+    .overlay img{
+        height: 32px;
+    }
+    
+    .header{
+        gap: 7px;
+    }
+    .header p{
+        font-size: 20px;
     }
 
-    .card-container > :nth-child(3) {
-        justify-self: flex-start; /* Center it horizontally */
+    
+    .chat-question{
+        font-size: 22px;
+        padding: 20px 30px;
+
+    }
+    
+    
+    .chat-answer{
+        font-size: 18px;
+        padding: 20px 30px;
     }
 }
 
