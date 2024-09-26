@@ -45,7 +45,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 20%;
+    top: 17%;
     width: 100%;
     height: 250px;
     background: linear-gradient(90deg, #2D3B97 0.2%, #21295D 99.44%);
