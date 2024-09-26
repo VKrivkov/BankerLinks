@@ -223,6 +223,10 @@
   }
 
 
+  .nav-link1{
+    grid-row: 5/6;
+    
+  }
 
   .burger-menu {
     display: block; /* Show the burger menu */
