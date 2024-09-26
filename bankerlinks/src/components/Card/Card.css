@@ -28,3 +28,57 @@
 .card-text{
     height: 200px;
 }
+
+@media (max-width: 1360px){
+    .card-text{
+        height: 215px;
+    }
+}
+
+@media (max-width: 1290px){
+    .welcome-card-container h5{
+        font-size: 26px;
+        padding-left: 15px;
+    }
+
+    .welcome-card-container p{
+        padding: 25px 15px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .card-icon{
+        margin-top: 40px;
+        width: 90px;
+    }
+    
+
+}
+
+
+@media (max-width: 1080px){
+    .welcome-card-container h5{
+        font-size: 26px;
+        padding-left: 15px;
+    }
+
+    .welcome-card-container p{
+        padding: 25px 15px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .card-icon{
+        margin-top: 40px;
+        width: 90px;
+    }
+
+    .welcome-card-container{
+
+        max-width: 450px;
+    }
+
+    .card-text{
+        height: 180px;
+    }
+}
