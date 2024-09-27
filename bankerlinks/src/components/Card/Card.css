@@ -61,7 +61,14 @@
         max-width: 450px;
     }
     .card-text{
-        height: 180px;
+        height: 170px;
+    }
+
+    .welcome-card-container p{
+        padding: 15px 10px;
+    }
+    .welcome-card-container h5{
+        padding-left: 10px;
     }
 }
 
@@ -86,6 +93,29 @@
     }
 
     .card-text{
-        height: 170px;
+        height: 160px;
     }
 }
+
+
+
+@media (max-width: 550px){
+    .welcome-card-container h5{
+        font-size: 22px;
+    }
+
+    .welcome-card-container p{
+        font-size: 16px;
+    }
+    
+    .card-icon{
+        margin-top: 20px;
+        width: 80px;
+    }
+
+
+    .card-text{
+        height: 130px;
+    }
+}
+

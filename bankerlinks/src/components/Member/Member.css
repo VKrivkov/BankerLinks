@@ -8,15 +8,18 @@
 }
 
 .upper-text{
-    display:flex;
-    flex-direction: row;
-    gap: 15px;
+
     font-size: 26px;
     font-weight: 700;
     color: #2D3B97;
 }
 
-.upper-text h6{
+.member-name{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.upper-text span{
     font-weight: 400;
     color: #EE220D;
 }
@@ -27,13 +30,46 @@
     padding-top: 10px;
     
 }
-
 .line-container{
     max-width: 500px;
 }
 
 
+@media (max-width:1290px) {
+    .upper-text{
+        font-size: 24px;
+    }
+    .member-card p{
+        font-size: 20px;
+        
+    }
+}
 
+@media (max-width:1080px) {
+    .member-card{
+        height: 100px;
+    }
+}
 
+@media (max-width:860px) {
+    .upper-text{
+        font-size: 22px;
+    }
+    .member-name{
+        gap: 5px;
+    }
+    .member-card p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:550px) {
+    .upper-text{
+        font-size: 20px;
+    }
+    .member-card p{
+        font-size: 16px;
+    }
+}
 
 

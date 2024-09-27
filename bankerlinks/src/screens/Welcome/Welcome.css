@@ -107,13 +107,28 @@
     .welcome-container{
         padding: 0  0 100px 0;
     }
+
+    .chat-container{
+        margin: 40px 0px;
+    }
+    
+    
+    .chat-question{
+        padding: 25px 40px;
+        margin: 40px 0 25px 5vw;
+    
+    }
+    
+    
+    .chat-answer{
+        width: 70%;
+        padding: 25px 40px;
+        margin: 0 5vw 40px 0;
+    }
+    
 }
 
-
 @media (max-width: 1290px){
-    .welcome-container{
-        padding: 0  0 100px 0;
-    }
 
     .header-container {
         gap: 15px;
@@ -138,25 +153,15 @@
     }
 
 
-    .chat-container{
-        margin: 40px 0px;
-    }
-    
+
     
     .chat-question{
-        padding: 25px 40px;
         font-size: 24px;
-        margin: 40px 0 25px 5vw;
-    
     }
     
     
     .chat-answer{
-        width: 70%;
-        border-radius: 20px 20px 0px 20px;
-        padding: 25px 40px;
         font-size: 20px;
-        margin: 0 5vw 40px 0;
     }
     
     
@@ -182,9 +187,24 @@
         align-items: center;
         gap: 60px;
     }
+
+    .chat-container{
+        margin: 30px 0px;
+    }
+    
+    
+    .chat-question{
+        padding: 20px 35px;
+        margin: 30px 0 20px 5vw;
+    
+    }
+    
+    
+    .chat-answer{
+        padding: 20px 35px;
+        margin: 0 5vw 30px 0;
+    }
 }
-
-
 
 @media (max-width: 860px){
 
@@ -207,14 +227,12 @@
         font-size: 20px;
     }
 
-    
     .chat-question{
         font-size: 22px;
         padding: 20px 30px;
 
     }
-    
-    
+
     .chat-answer{
         font-size: 18px;
         padding: 20px 30px;
@@ -251,16 +269,27 @@
     .chat-question{
         font-size: 20px;
         padding: 15px 25px;
+        margin: 20px 0 20px 5vw;
 
     }
-    
+
+    .card-container{
+        gap: 40px;
+        margin: 20px 0px;
+
+    }
     
     .chat-answer{
         font-size: 16px;
-        padding: 15px 25px;
+        padding: 15px 15px;
         width: 80%;
-
+        margin: 0 5vw 20px 0;
     }
+
+    .chat-container{
+        margin: 20px 0px;
+    }
+
 }
 
 @media (max-width: 390px){
