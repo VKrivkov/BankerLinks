@@ -48,7 +48,7 @@
     }
 
     .member-container .member-container .line-container {
-        border-bottom-width: 3px;
+        border-bottom-width: 3px !important;
     }
 
     .member-container .member-card:nth-child(1) {

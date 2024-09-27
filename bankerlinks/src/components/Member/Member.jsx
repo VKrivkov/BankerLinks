@@ -2,7 +2,7 @@ import React from 'react'
 import './Member.css'
 
 const Member = ({name, position, p, color}) => {
-  const borderBottomStyle = `5px solid ${color}`;
+  const borderBottomColor = `${color}`;
 
   return (
     <div className='member-card'>
@@ -12,7 +12,7 @@ const Member = ({name, position, p, color}) => {
         </div>
         <p>{p}</p>
       </div>
-      <div className='line-container' style={{borderBottom: borderBottomStyle}} ></div>
+      <div className='line-container' style={{borderBottomColor: borderBottomColor}} ></div>
     </div>
   )
 }
