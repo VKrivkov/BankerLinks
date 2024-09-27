@@ -3,7 +3,7 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 300;
-    padding: 75px 80px 40px 80px;
+    padding: 75px 5vw 40px 5vw;
     position: relative;
 }
 
@@ -18,7 +18,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 50px;
     align-items: flex-start;
 }
 
@@ -105,7 +105,7 @@ p.Rights{
     .footer-container{
         font-size: 20px;
         font-weight: 300;
-        padding: 80px 100px 50px 100px;
+        padding: 80px 5vw 50px 5vw;
     }
 
     .company-container h5{
@@ -176,7 +176,7 @@ p.Rights{
 
     .footer-container{
         font-size: 16px;
-        padding: 50px 50px 25px 50px;
+        padding: 50px 5vw 25px 5vw;
     }
 
     .company-container{
@@ -199,7 +199,7 @@ p.Rights{
 
 @media (max-width:420px){
     .footer-container{
-        padding: 35px 25px 35px 25px;
+        padding: 35px 5vw 35px 5vw;
     }
 
     .footer-first-level{
