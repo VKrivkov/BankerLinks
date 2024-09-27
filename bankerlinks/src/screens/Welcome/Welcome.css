@@ -284,6 +284,7 @@
         padding: 15px 15px;
         width: 80%;
         margin: 0 5vw 20px 0;
+        border: 2px solid #2D3B97;
     }
 
     .chat-container{
