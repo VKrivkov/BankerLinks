@@ -2,3 +2,25 @@
     width: 100%;
     padding: 0  0 120px 0;
 }
+
+
+@media (max-width: 1600px){
+    .features-container {
+        padding: 0 0 100px 0;
+    }
+}
+
+@media (max-width: 1080px){
+
+    .features-container {
+        padding: 0  0 75px 0;
+    }
+
+}
+
+@media (max-width: 550px){
+    .features-container {
+        padding: 0  0 50px 0;
+    }
+}
+

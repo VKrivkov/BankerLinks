@@ -81,7 +81,7 @@
 
 
 
-@media (max-width: 1080px) {
+@media (max-width: 1290px) {
 
 
   .navbar-label{
@@ -146,11 +146,12 @@
    .navbar-center.show {
     padding: 80px 100px 0px 100px;
     display: grid;
-    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: repeat(4, 120px);
     column-gap: 50px;
     row-gap: 25px;
     justify-content: center;
     text-align: center;
+    
   } 
 
   
@@ -187,7 +188,7 @@
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
 
 
 
