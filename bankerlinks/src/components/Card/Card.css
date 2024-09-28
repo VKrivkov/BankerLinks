@@ -27,6 +27,7 @@
 
 .card-text{
     height: 200px;
+    border-bottom: 5px solid;
 }
 
 @media (max-width: 1360px){
@@ -62,6 +63,7 @@
     }
     .card-text{
         height: 170px;
+        border-bottom: 4px solid;
     }
 
     .welcome-card-container p{
@@ -116,6 +118,7 @@
 
     .card-text{
         height: 130px;
+        border-bottom: 3px solid;
     }
 }
 

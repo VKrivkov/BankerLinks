@@ -2,11 +2,11 @@ import React from 'react'
 import "./Card.css"
 
 const Card = ({header, text, color, pathToIcon}) => {
-  const borderBottomStyle = `5px solid ${color}`;
+  const borderBottomColor = `${color}`;
   
   return (
     <div className='welcome-card-container'>
-      <div className='card-text' style={{borderBottom: borderBottomStyle}}>
+      <div className='card-text' style={{borderBottomColor: borderBottomColor}}>
         <h5>{header}</h5>
         <p>{text}</p>
       </div>
