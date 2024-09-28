@@ -6,7 +6,7 @@
     align-items: center;
     color: #090909;
     text-align: center;
-    height: 400px;
+    height: 415px;
     justify-content: space-between;
 }
 
@@ -19,18 +19,97 @@
 }
 
 .contact-card-icon{
-    width: 80px;
+    width: 70px;
 }
 
 .contact-card-text h5{
     color: #2D3B97;
     font-size: 40px;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .contact-card-text p{
     color: #090909;
     font-size: 22px;
     font-weight: 400;
+}
+
+
+@media (max-width: 1290px){
+
+    .contact-card-text h5{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .contact-card-container p{
+        font-size: 24px;
+    }
+    .contact-card-text p{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .contact-card-icon{
+        width: 60px;
+    }
+
+}
+
+
+@media (max-width: 1080px){
+
+    .contact-card-container p{
+        padding: 0px;
+    }
+    .contact-card-text p{
+        padding: 10px 20px 20px 20px;
+    }
+    .contact-card-container{
+        height: auto;
+        width: auto;
+    }
+
+}
+
+
+@media (max-width: 860px){
+    .contact-card-text h5{
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .contact-card-container p{
+        font-size: 22px;
+    }
+
+    .contact-card-text p{
+        font-size: 18px;
+    }
+    
+    .contact-card-icon{
+        width: 50px;
+    }
+
+}
+
+
+
+@media (max-width: 550px){
+    .contact-card-text h5{
+        font-size: 25px;
+    }
+
+    .contact-card-container p{
+        font-size: 20px;
+    }
+    .contact-card-text p{
+        font-size: 16px;
+    }
+
+        
+    .contact-card-icon{
+        width: 40px;
+    }
+
 }
