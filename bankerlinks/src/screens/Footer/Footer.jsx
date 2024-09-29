@@ -52,7 +52,7 @@ const Footer = () => {
         <div className='company-container'>
           <img onClick={() => scrollToSection('hero')} src={Logo} alt="Logo" />
           <p>BankerLinks s.à.r.l.</p>
-          <div className='footer-icon-container' style={{display:"flex", flexDirection:"row", gap:"10px"}}>
+          <div className='footer-icon-container' style={{display:"flex", flexDirection:"row", gap:"10px", alignItems:"center"}}>
             <a href='https://www.facebook.com/BankerLinks/'><img className='contact-card-icon' style={{maxWidth:"50px"}}src={F} alt="FaceBook"/></a>
             <a href='https://lu.linkedin.com/company/bankerlinks'><img className='contact-card-icon' src={L} alt="LinkedIn"/></a>
           </div>
