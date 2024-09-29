@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Footer.css";
 import Logo from "../../assets/Logo.svg"
+import F from "../../assets/Facebook.png"
+import L from "../../assets/LinkedIn.png"
 
 
 const Footer = () => {
@@ -16,7 +18,7 @@ const Footer = () => {
     // Define the smooth scroll function
     const smoothScroll = (targetPosition) => {
       const startPosition = window.pageYOffset;
-      const distance = targetPosition - startPosition;
+      const distance = targetPosition - startPosition - 140;
       const duration = 800; // Duration of the scroll animation in milliseconds
       let startTime = null;
   
@@ -50,6 +52,11 @@ const Footer = () => {
         <div className='company-container'>
           <img onClick={() => scrollToSection('home')} src={Logo} alt="Logo" />
           <p>BankerLinks s.à.r.l.</p>
+          <div className='footer-icon-container' style={{display:"flex", flexDirection:"row", gap:"10px"}}>
+            <a href='https://www.facebook.com/BankerLinks/'><img className='contact-card-icon' style={{maxWidth:"50px"}}src={F} alt="FaceBook"/></a>
+            <a href='https://lu.linkedin.com/company/bankerlinks'><img className='contact-card-icon' src={L} alt="LinkedIn"/></a>
+          </div>
+
         </div>
         <div className='contact-info-container'>
           <h6>Contact us</h6>
