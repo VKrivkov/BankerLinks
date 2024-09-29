@@ -50,7 +50,7 @@ const Footer = () => {
     <div className='footer-container'>
       <div className='footer-first-level'>
         <div className='company-container'>
-          <img onClick={() => scrollToSection('home')} src={Logo} alt="Logo" />
+          <img onClick={() => scrollToSection('hero')} src={Logo} alt="Logo" />
           <p>BankerLinks s.à.r.l.</p>
           <div className='footer-icon-container' style={{display:"flex", flexDirection:"row", gap:"10px"}}>
             <a href='https://www.facebook.com/BankerLinks/'><img className='contact-card-icon' style={{maxWidth:"50px"}}src={F} alt="FaceBook"/></a>

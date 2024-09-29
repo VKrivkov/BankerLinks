@@ -7,7 +7,7 @@ import Member from '../../components/Member/Member';
 const Team = () => {
   return (
     <>
-    <div className='header'>
+    <div className='header'  id='team'>
         <div className="header-container">
         <div className="overlay">
             <img src={bankerlinks} alt="BankerLinks" className="overlay-image" />
@@ -19,7 +19,7 @@ const Team = () => {
         </div>
         <p>Dedicated professionals with deep industry expertise</p>
       </div>
-      <div className='team-container' id='team'>
+      <div className='team-container'>
         <img className = 'team-image' src = {team} alt = 'BankerLinks team'/>
         <div className='member-container'>
           <Member 

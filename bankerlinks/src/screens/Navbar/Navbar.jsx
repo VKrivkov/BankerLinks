@@ -60,10 +60,10 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" />
       </div>
       <div className={`navbar-center ${isMenuOpen ? "show" : ""}`}>
-        <a href="#home" onClick={(e) => {e.preventDefault(); scrollToSection('home');}} className="nav-link">About</a>
-        <a href="#price" onClick={(e) => {e.preventDefault(); scrollToSection('team');}} className="nav-link">Team</a>
-        <a href="#gallery" onClick={(e) => {e.preventDefault(); scrollToSection('features');}} className="nav-link">Features</a>
-        <a href="#contact" onClick={(e) => {e.preventDefault(); scrollToSection('contact');}} className="nav-link1"><strong style={{color: "#fff", padding: "10px 60px", borderRadius: "10px", background: "linear-gradient(0deg, #2D3B97 0%, #2D3B97 100%)"}}>Contact</strong></a>
+        <a href="#home" onClick={(e) => {e.preventDefault(); scrollToSection('home'); toggleMenu();}} className="nav-link">About</a>
+        <a href="#price" onClick={(e) => {e.preventDefault(); scrollToSection('team'); toggleMenu();}} className="nav-link">Team</a>
+        <a href="#gallery" onClick={(e) => {e.preventDefault(); scrollToSection('features'); toggleMenu();}} className="nav-link">Features</a>
+        <a href="#contact" onClick={(e) => {e.preventDefault(); scrollToSection('contact'); toggleMenu();}} className="nav-link1"><strong style={{color: "#fff", padding: "10px 60px", borderRadius: "10px", background: "linear-gradient(0deg, #2D3B97 0%, #2D3B97 100%)"}}>Contact</strong></a>
       </div>
 
       <div className="burger-menu" onClick={toggleMenu}>
