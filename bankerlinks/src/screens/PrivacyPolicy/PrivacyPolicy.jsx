@@ -50,7 +50,7 @@ const PrivacyPolicy = () => {
         <li>- <strong>Country</strong> refers to Luxembourg.</li>
         <li>
           - <strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the
-          Company.
+          Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
         </li>
         <li>
           - <strong>Third-party Social Media Service</strong> refers to any website or any social network website through
@@ -109,14 +109,14 @@ const PrivacyPolicy = () => {
         You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You
         do not accept Cookies, You may not be able to use some parts of our Service.
       </p>
-      <p>Cookies can be “Persistent” or “Session” Cookies.</p>
+      <p>Cookies can be “Persistent” or “Session” Cookies. Persistent Cookies remain on your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close your web browser.</p>
 
       <h5>Types of Cookies We Use</h5>
       <ul>
         <li>
           - <strong>Necessary / Essential Cookies</strong> (Session Cookies):
           These Cookies are essential to provide You with services available through the Website and to enable You to use
-          some of its features. They help to authenticate users and prevent fraudulent use of user accounts.
+          some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.
         </li>
         <li>
           - <strong>Cookies Policy / Notice Acceptance Cookies</strong> (Persistent Cookies):
@@ -133,21 +133,28 @@ const PrivacyPolicy = () => {
       <p>The Company may use Personal Data for the following purposes:</p>
       <ul>
         <li>- To provide and maintain our Service, including to monitor the usage of our Service.</li>
-        <li>- To manage Your Account: to manage Your registration as a user of the Service.</li>
+        <li>- To manage Your Account: to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</li>
+        <li>
+          - For the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
+        </li>
         <li>
           - To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic
-          communication, such as push notifications.
+          communication, such as a mobile application’s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
         </li>
         <li>
-          - To provide You with news, special offers, and general information about other goods, services, and events
-          unless You opt out.
+          - To provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
         </li>
+        <li>- To manage Your requests: To attend and manage Your requests to Us.</li>
       </ul>
 
       <h3>Retention of Your Personal Data</h3>
       <p>
         The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this
-        Privacy Policy.
+        Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+      </p>
+
+      <p>
+        The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
       </p>
 
       <h3>Transfer of Your Personal Data</h3>
@@ -156,6 +163,12 @@ const PrivacyPolicy = () => {
         places where the parties involved in the processing are located. This means that this information may be
         transferred to — and maintained on — computers located outside of Your state, province, country, or other
         governmental jurisdiction where the data protection laws may differ from those in Your jurisdiction.
+      </p>
+      <p>
+        Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
+      </p>
+      <p>
+        The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
       </p>
 
       <h3>Disclosure of Your Personal Data</h3>
