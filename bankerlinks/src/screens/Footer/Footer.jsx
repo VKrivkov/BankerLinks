@@ -1,60 +1,69 @@
 import React from 'react';
-import "./Footer.css";
-import Logo from "../../assets/Logo.svg"
-import F from "../../assets/Facebook.png"
-import L from "../../assets/LinkedIn.png"
-
+import './Footer.css';
+import Logo from '../../assets/Logo.svg';
+import F from '../../assets/Facebook.png';
+import L from '../../assets/LinkedIn.png';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
 
+  const handleNavigation = (e, sectionId) => {
+    e.preventDefault();
+    if (location.pathname === '/') {
+      // If already on the home page, just scroll to the section
+      scrollToSection(sectionId);
+    } else {
+      // Navigate to home page and pass the target section
+      navigate('/', { state: { targetSection: sectionId } });
+    }
+  };
+
+  // Your existing scrollToSection function
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (!section) return;
-  
-    // Calculate the position of the section
-    const sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
-    console.log('Section ID:', sectionId, 'Section Top:', sectionTop);
 
-    // Define the smooth scroll function
+    // Smooth scroll logic (unchanged)
+    const sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
     const smoothScroll = (targetPosition) => {
       const startPosition = window.pageYOffset;
       const distance = targetPosition - startPosition - 140;
-      const duration = 800; // Duration of the scroll animation in milliseconds
+      const duration = 800;
       let startTime = null;
-  
+
       const animation = (currentTime) => {
         if (startTime === null) startTime = currentTime;
         const timeElapsed = currentTime - startTime;
         const nextScrollPosition = ease(timeElapsed, startPosition, distance, duration);
-  
+
         window.scrollTo(0, nextScrollPosition);
-  
+
         if (timeElapsed < duration) requestAnimationFrame(animation);
       };
-  
+
       const ease = (t, b, c, d) => {
         t /= d / 2;
-        if (t < 1) return c / 2 * t * t + b;
+        if (t < 1) return (c / 2) * t * t + b;
         t--;
-        return -c / 2 * (t * (t - 2) - 1) + b;
+        return (-c / 2) * (t * (t - 2) - 1) + b;
       };
-  
+
       requestAnimationFrame(animation);
     };
-  
-    // Execute the smooth scroll function
+
     smoothScroll(sectionTop);
   };
-
   return (
     <div className='footer-container'>
       <div className='footer-first-level'>
         <div className='company-container'>
-          <img onClick={() => scrollToSection('hero')} src={Logo} alt="Logo" />
+          <img onClick={(e) => handleNavigation(e, 'hero')} src={Logo} alt="Logo" />
           <p>BankerLinks s.à.r.l.</p>
           <div className='footer-icon-container' style={{display:"flex", flexDirection:"row", gap:"10px", alignItems:"center"}}>
-            <a href='https://www.facebook.com/BankerLinks/'><img className='contact-card-icon' style={{maxWidth:"50px"}}src={F} alt="FaceBook"/></a>
-            <a href='https://lu.linkedin.com/company/bankerlinks'><img className='contact-card-icon' src={L} alt="LinkedIn"/></a>
+            <a href='https://www.facebook.com/BankerLinks/'><img className='contact-card-icon' style={{maxWidth:"50px"}} src={F} alt="FaceBook"/></a>
+            <a href='https://lu.linkedin.com/company/bankerlinks'><img className='contact-card-icon' style={{maxWidth:"50px"}} src={L} alt="LinkedIn"/></a>
           </div>
 
         </div>
@@ -65,15 +74,20 @@ const Footer = () => {
           <p>9, rue du Laboratoire, L-​1911 Luxembourg</p>
         </div>
         <div className='navigation-footer'>
-          <a href="#home" onClick={(e) => {e.preventDefault(); scrollToSection('home');}} className="footer-link">About</a>
-          <a href="#price" onClick={(e) => {e.preventDefault(); scrollToSection('team');}} className="footer-link">Team</a>
-          <a href="#gallery" onClick={(e) => {e.preventDefault(); scrollToSection('features');}} className="footer-link">Features</a>
-          <a href="#contact" onClick={(e) => {e.preventDefault(); scrollToSection('contact');}} className="footer-link">Contact</a>
+        <a href="#home" onClick={(e) => handleNavigation(e, 'home')} className="footer-link">
+          About
+        </a>
+        <a href="#features" onClick={(e) => handleNavigation(e, 'features')} className="footer-link">
+          Features
+        </a>
+        <a href="#contact" onClick={(e) => handleNavigation(e, 'contact')} className="footer-link">
+          Contact
+        </a>
         </div>
         <div className='nobody-reads-container'>
           <div>
-            <a href='https://www.termsfeed.com/live/d0d010f5-8595-402f-9861-1c7a2983e992'><p>Privacy Policy</p></a>
-            <a href='https://www.termsfeed.com/live/bf129419-7b70-4169-9545-0031703c1caa'><p>Terms & Conditions</p></a>
+            <Link to="/privacy-policy"> <p>Privacy Policy</p> </Link>
+            <Link to="/cookies-policy"> <p>Cookies Policy</p> </Link>
           </div>
           <p className='Rights'>© 2024, All rights reserved</p>
         </div>

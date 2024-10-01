@@ -1,0 +1,243 @@
+/* Base styles */
+.policy-container {
+    padding: 140px 5vw 120px 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading styles */
+.policy-container h2 {
+    font-family: Inter, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #2D3B97;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.policy-container h3 {
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #2D3B97;
+    text-align: left;
+    margin: 20px 0 10px;
+}
+
+.policy-container h4 {
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2D3B97;
+    text-align: left;
+    align-self: flex-start;
+    margin: 15px 0 10px;
+}
+
+.policy-container h5 {
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #2D3B97;
+    text-align: left;
+    align-self: flex-start;
+    margin: 15px 0 10px;
+}
+
+.policy-container h6 {
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #2D3B97;
+    text-align: left;
+    align-self: flex-start;
+    margin: 10px 0 5px;
+}
+
+/* Paragraph and list styles */
+.policy-container p,
+.policy-container ul {
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #090909;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.policy-container ul {
+    margin-left: 40px;
+}
+
+.policy-container li {
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+.policy-container a {
+    color: #2D3B97 !important; 
+    text-decoration: none;
+}
+
+.policy-container a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive breakpoints */
+
+/* Max-width 1600px */
+@media (max-width: 1600px) {
+    .policy-container {
+        padding: 120px 5vw 100px 5vw;
+    }
+    .policy-container h2 {
+        font-size: 56px;
+    }
+    .policy-container h3 {
+        font-size: 32px;
+    }
+    .policy-container h4 {
+        font-size: 28px;
+    }
+    .policy-container h5 {
+        font-size: 24px;
+    }
+    .policy-container h6 {
+        font-size: 20px;
+    }
+    .policy-container p,
+    .policy-container ul {
+        font-size: 17px;
+    }
+}
+
+/* Max-width 1290px */
+@media (max-width: 1290px) {
+    .policy-container h2 {
+        font-size: 48px;
+    }
+    .policy-container h3 {
+        font-size: 28px;
+    }
+    .policy-container h4 {
+        font-size: 24px;
+    }
+    .policy-container h5 {
+        font-size: 22px;
+    }
+    .policy-container h6 {
+        font-size: 18px;
+    }
+    .policy-container p,
+    .policy-container ul {
+        font-size: 16px;
+    }
+}
+
+/* Max-width 1080px */
+@media (max-width: 1080px) {
+    .policy-container {
+        padding: 100px 5vw 75px 5vw;
+    }
+    .policy-container h2 {
+        font-size: 40px;
+    }
+    .policy-container h3 {
+        font-size: 24px;
+    }
+    .policy-container h4 {
+        font-size: 22px;
+    }
+    .policy-container h5 {
+        font-size: 20px;
+    }
+    .policy-container h6 {
+        font-size: 16px;
+    }
+    .policy-container p,
+    .policy-container ul {
+        font-size: 15px;
+    }
+}
+
+/* Max-width 860px */
+@media (max-width: 860px) {
+    .policy-container h2 {
+        font-size: 32px;
+    }
+    .policy-container h3 {
+        font-size: 22px;
+    }
+    .policy-container h4 {
+        font-size: 20px;
+    }
+    .policy-container h5 {
+        font-size: 18px;
+    }
+    .policy-container h6 {
+        font-size: 14px;
+    }
+    .policy-container p,
+    .policy-container ul {
+        font-size: 14px;
+    }
+}
+
+/* Max-width 550px */
+@media (max-width: 550px) {
+    .policy-container {
+        padding: 75px 5vw 50px 5vw;
+    }
+    .policy-container h2 {
+        font-size: 28px;
+    }
+    .policy-container h3 {
+        font-size: 20px;
+    }
+    .policy-container h4 {
+        font-size: 18px;
+    }
+    .policy-container h5 {
+        font-size: 16px;
+    }
+    .policy-container h6 {
+        font-size: 13px;
+    }
+    .policy-container p,
+    .policy-container ul {
+        font-size: 13px;
+    }
+    .policy-container ul {
+        margin-left: 30px;
+    }
+}
+
+/* Max-width 390px */
+@media (max-width: 390px) {
+    .policy-container h2 {
+        font-size: 24px;
+    }
+    .policy-container h3 {
+        font-size: 18px;
+    }
+    .policy-container h4 {
+        font-size: 16px;
+    }
+    .policy-container h5 {
+        font-size: 14px;
+    }
+    .policy-container h6 {
+        font-size: 12px;
+    }
+    .policy-container p,
+    .policy-container ul {
+        font-size: 12px;
+    }
+    .policy-container ul {
+        margin-left: 20px;
+    }
+}
