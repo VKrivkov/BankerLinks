@@ -126,10 +126,10 @@ const PrivacyPolicy = () => {
         <li>
           - <strong>Necessary / Essential Cookies</strong>
           <ul>
-            <li>Type: Session Cookies</li>
-            <li>Administered by: Us</li>
+            <li>- Type: Session Cookies</li>
+            <li>- Administered by: Us</li>
             <li>
-              Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use
+              - Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use
               some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.
             </li>
           </ul>
@@ -137,20 +137,20 @@ const PrivacyPolicy = () => {
         <li>
           - <strong>Cookies Policy / Notice Acceptance Cookies</strong>
           <ul>
-            <li>Type: Persistent Cookies</li>
-            <li>Administered by: Us</li>
+            <li>- Type: Persistent Cookies</li>
+            <li>- Administered by: Us</li>
             <li>
-              Purpose: These Cookies identify if users have accepted the use of cookies on the Website.
+              - Purpose: These Cookies identify if users have accepted the use of cookies on the Website.
             </li>
           </ul>
         </li>
         <li>
           - <strong>Functionality Cookies</strong>
           <ul>
-            <li>Type: Persistent Cookies</li>
-            <li>Administered by: Us</li>
+            <li>- Type: Persistent Cookies</li>
+            <li>- Administered by: Us</li>
             <li>
-              Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login
+              - Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login
               details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.
             </li>
           </ul>
@@ -182,19 +182,19 @@ const PrivacyPolicy = () => {
       <p>We may share your personal information in the following situations:</p>
       <ul>
         <li>
-          <strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to show advertisements to You to help support and maintain Our Service, to contact You, to advertise on third-party websites to You after You visited our Service, or for payment processing.
+          - <strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to show advertisements to You to help support and maintain Our Service, to contact You, to advertise on third-party websites to You after You visited our Service, or for payment processing.
         </li>
         <li>
-          <strong>For Business Transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company.
+          - <strong>For Business Transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company.
         </li>
         <li>
-          <strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners, or other companies that We control or that are under common control with Us.
+          - <strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners, or other companies that We control or that are under common control with Us.
         </li>
         <li>
-          <strong>With Business Partners:</strong> We may share Your information with Our business partners to offer You certain products, services, or promotions.
+          - <strong>With Business Partners:</strong> We may share Your information with Our business partners to offer You certain products, services, or promotions.
         </li>
         <li>
-          <strong>With Other Users:</strong> When You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures, and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You, and view Your profile.
+          - <strong>With Other Users:</strong> When You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures, and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You, and view Your profile.
         </li>
       </ul>
 
