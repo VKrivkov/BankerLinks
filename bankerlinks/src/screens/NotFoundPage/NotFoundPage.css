@@ -1,6 +1,6 @@
 /* Base styles */
 .not-found-container {
-    margin: 100px 5vw;
+    margin: 200px 5vw 120px 5vw;
     display: flex;
     flex-direction: row;
     height: 500px;
@@ -24,7 +24,7 @@
 .not-found-content h2 {
     font-size: 70px;
     font-weight: 700;
-    color: #2D3B97;
+    color: #EE220D;
     margin: 0;
 }
 
@@ -38,15 +38,15 @@
 .not-found-content p {
     font-size: 22px;
     font-weight: 400;
-    margin: 20px 0;
+    margin: 20px 0 50px 0;
 }
 
 .not-found-content button {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     background: #2D3B97;
-    padding: 10px 60px;
+    padding: 10px 50px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -61,7 +61,7 @@
 /* Max-width 1600px */
 @media (max-width: 1600px) {
     .not-found-container {
-        margin: 80px 5vw;
+        margin: 180px 5vw 100px 5vw;
     }
     .not-found-content h2 {
         font-size: 60px;
@@ -76,6 +76,9 @@
 
 /* Max-width 1290px */
 @media (max-width: 1290px) {
+    .not-found-container {
+        margin: 150px 5vw 75px 5vw;
+    }
     .not-found-content h2 {
         font-size: 50px;
     }
@@ -90,7 +93,6 @@
 /* Max-width 1080px */
 @media (max-width: 1080px) {
     .not-found-container {
-        margin: 60px 5vw;
         flex-direction: column;
         height: auto;
     }
@@ -106,12 +108,15 @@
     .not-found-content p {
         font-size: 16px;
     }
+    .not-found-content button {
+        font-size: 18px;
+    }
 }
 
 /* Max-width 550px */
 @media (max-width: 550px) {
     .not-found-container {
-        margin: 40px 5vw;
+        margin: 125px 5vw 50px 5vw;
         gap: 50px;
     }
     .not-found-content h2 {
