@@ -1,4 +1,5 @@
 import React from 'react';
+import './CookiesPolicy.css';
 
 const CookiesPolicy = () => {
   return (
@@ -75,7 +76,7 @@ const CookiesPolicy = () => {
       </p>
       <ul>
         <li>- Phone: +352 621 405 208</li>
-        <li>- E-mail contact page</li>
+        <li>- E-mail through our dedicated contact page</li>
       </ul>
     </div>
   );
