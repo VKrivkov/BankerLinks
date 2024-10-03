@@ -55,34 +55,41 @@ const Footer = () => {
 
     smoothScroll(sectionTop);
   };
+
   return (
     <div className='footer-container'>
       <div className='footer-first-level'>
         <div className='company-container'>
-          <img onClick={(e) => handleNavigation(e, 'hero')} src={Logo} alt="Logo" />
+          {/* Wrap the logo in an <a> tag for full page reload */}
+          <a href='/' aria-label="BankerLinks Home">
+            <img src={Logo} alt="BankerLinks Logo" style={{ cursor: 'pointer' }} />
+          </a>
           <p>BankerLinks s.à.r.l.</p>
-          <div className='footer-icon-container' style={{display:"flex", flexDirection:"row", gap:"10px", alignItems:"center"}}>
-            <a href='https://www.facebook.com/BankerLinks/'><img className='contact-card-icon' style={{maxWidth:"50px"}} src={F} alt="FaceBook"/></a>
-            <a href='https://lu.linkedin.com/company/bankerlinks'><img className='contact-card-icon' style={{maxWidth:"50px"}} src={L} alt="LinkedIn"/></a>
+          <div className='footer-icon-container' style={{ display: "flex", flexDirection: "row", gap: "10px", alignItems: "center" }}>
+            <a href='https://www.facebook.com/BankerLinks/' target="_blank" rel="noopener noreferrer">
+              <img className='contact-card-icon' style={{ maxWidth: "50px" }} src={F} alt="Facebook" />
+            </a>
+            <a href='https://lu.linkedin.com/company/bankerlinks' target="_blank" rel="noopener noreferrer">
+              <img className='contact-card-icon' style={{ maxWidth: "50px" }} src={L} alt="LinkedIn" />
+            </a>
           </div>
-
         </div>
         <div className='contact-info-container'>
           <h6>Contact us</h6>
           <p>info@bankerlinks.com</p>
           <p>+352 621 405 208</p>
-          <p>9, rue du Laboratoire, L-​1911 Luxembourg</p>
+          <p>9, rue du Laboratoire, L-1911 Luxembourg</p>
         </div>
         <div className='navigation-footer'>
-        <a href="#home" onClick={(e) => handleNavigation(e, 'home')} className="footer-link">
-          About
-        </a>
-        <a href="#features" onClick={(e) => handleNavigation(e, 'features')} className="footer-link">
-          Features
-        </a>
-        <a href="#contact" onClick={(e) => handleNavigation(e, 'contact')} className="footer-link">
-          Contact
-        </a>
+          <a href="#home" onClick={(e) => handleNavigation(e, 'home')} className="footer-link">
+            About
+          </a>
+          <a href="#features" onClick={(e) => handleNavigation(e, 'features')} className="footer-link">
+            Features
+          </a>
+          <a href="#contact" onClick={(e) => handleNavigation(e, 'contact')} className="footer-link">
+            Contact
+          </a>
         </div>
         <div className='nobody-reads-container'>
           <div>

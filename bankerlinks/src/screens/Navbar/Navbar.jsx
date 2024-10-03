@@ -1,10 +1,9 @@
-// Navbar.js
 import React, { useState } from 'react';
 import './Navbar.css';
 import Logo from '../../assets/Logo.png';
 import BurgerIcon from '../../assets/BurgerIcon.svg';
 import CloseIcon from '../../assets/CloseIcon.svg';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -68,12 +67,10 @@ const Navbar = () => {
   return (
     <div className={`navbar ${isMenuOpen ? 'show' : ''}`}>
       <div className="navbar-brand">
-        <img
-          onClick={(e) => handleNavigation(e, 'hero')}
-          style={{ cursor: 'pointer' }}
-          src={Logo}
-          alt="Logo"
-        />
+        {/* Wrap the logo in an <a> tag for full page reload */}
+        <a href="/" aria-label="BankerLinks Home">
+          <img src={Logo} alt="BankerLinks Logo" style={{ cursor: 'pointer' }} />
+        </a>
       </div>
       <div className={`navbar-center ${isMenuOpen ? 'show' : ''}`}>
         <a
