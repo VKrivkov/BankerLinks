@@ -1,20 +1,23 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import { Features, Footer, Navbar, Hero, Team, Welcome, Contact, PrivacyPolicy, CookiesPolicy, NotFoundPage } from './screens';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function ScrollHandler() {
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const targetSection = location.state?.targetSection;
     if (targetSection) {
       // Use your custom scroll function
       scrollToSection(targetSection);
+      // After scrolling, remove the targetSection from state
+      navigate(location.pathname, { replace: true });
     }
-  }, [location]);
+  }, [location, navigate]);
 
   // Custom smooth scroll function
   const scrollToSection = (sectionId) => {
@@ -57,7 +60,6 @@ function ScrollHandler() {
 
   return null;
 }
-
 function App() {
   return (
     <>

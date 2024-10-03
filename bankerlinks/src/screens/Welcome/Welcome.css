@@ -125,9 +125,6 @@
         margin: 0 5vw 40px 0;
     }
     
-}
-
-@media (max-width: 1290px){
 
     .header-container {
         gap: 15px;
