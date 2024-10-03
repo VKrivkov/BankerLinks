@@ -50,6 +50,12 @@
 
 }
 
+@media (max-width:1290px) {
+    .card-text{
+        height: 215px;
+    }
+}
+
 
 @media (max-width: 1080px){
     .welcome-card-container{
