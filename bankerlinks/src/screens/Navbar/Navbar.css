@@ -57,6 +57,24 @@
   transition: color 0.2s ease-in-out; /* Transition effect for color property */
 }
 
+.contact-button {
+  color: #fff;
+  padding: 10px 60px;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #2D3B97 0%, #2D3B97 100%);
+  cursor: pointer;
+  display: inline-block; /* Ensures the border wraps around the content */
+  border: 2px solid transparent;
+  transition: border 0.2s ease-in-out; /* Smooth transition for border */
+
+}
+
+/* Hover effect to add a red 1pt border */
+.contact-button:hover {
+  border: 2px solid  #EE220D;
+}
+
+
 .nav-link::after{
   content: ''; /* Required for pseudo-elements */
   position: absolute;

@@ -1,3 +1,4 @@
+// Navbar.js
 import React, { useState } from 'react';
 import './Navbar.css';
 import Logo from '../../assets/Logo.png';
@@ -93,15 +94,7 @@ const Navbar = () => {
           onClick={(e) => handleNavigation(e, 'contact')}
           className="nav-link1"
         >
-          <strong
-            style={{
-              color: '#fff',
-              padding: '10px 60px',
-              borderRadius: '10px',
-              background: 'linear-gradient(0deg, #2D3B97 0%, #2D3B97 100%)',
-              cursor: 'pointer',
-            }}
-          >
+          <strong className="contact-button">
             Contact
           </strong>
         </a>
