@@ -21,6 +21,13 @@
   font-weight: 500;
   font-style: normal;
 }
+/* Medium (500) for medium-weight text */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-static/Inter_24pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
 
 /* Bold (700) for headings */
 @font-face {

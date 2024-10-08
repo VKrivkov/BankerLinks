@@ -19,7 +19,7 @@ const Contact = () => {
         <ContactCard
           pathToIcon={Icon1}
           header = "Visit us"
-          text="BankerLinks s.à.r.l."
+          text="BankerLinks s.à r.l."
           contact="9, Rue du Laboratoire, L-1911 Luxembourg"
         />
         <ContactCard

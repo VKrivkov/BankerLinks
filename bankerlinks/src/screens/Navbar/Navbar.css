@@ -25,7 +25,6 @@
   flex-direction: row;
   gap: 80px;
   align-items: center;
-  cursor: pointer;
 }
 
 
@@ -38,6 +37,8 @@
 
 .nav-link{
   position: relative;
+  cursor: pointer;
+
 }
 
 .navbar-brand{
@@ -53,7 +54,7 @@
 
 
 .nav-link:hover{
-  color:  #2D3B97; /* or use border-bottom if that's the design */
+  color:  #181F4F; /* or use border-bottom if that's the design */
   transition: color 0.2s ease-in-out; /* Transition effect for color property */
 }
 
@@ -61,7 +62,7 @@
   color: #fff;
   padding: 10px 60px;
   border-radius: 10px;
-  background: linear-gradient(0deg, #2D3B97 0%, #2D3B97 100%);
+  background: linear-gradient(90deg, #181F4F 0%, #2D3B97 100%);
   cursor: pointer;
   display: inline-block; /* Ensures the border wraps around the content */
   border: 2px solid transparent;

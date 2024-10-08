@@ -3,6 +3,9 @@ import './Footer.css';
 import Logo from '../../assets/Logo.svg';
 import F from '../../assets/Facebook.png';
 import L from '../../assets/LinkedIn.png';
+import T from '../../assets/Twitter.png';
+import I from '../../assets/Instagram.png';
+
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
@@ -65,12 +68,18 @@ const Footer = () => {
             <img src={Logo} alt="BankerLinks Logo" style={{ cursor: 'pointer' }} />
           </a>
           <p>BankerLinks s.à.r.l.</p>
-          <div className='footer-icon-container' style={{ display: "flex", flexDirection: "row", gap: "10px", alignItems: "center" }}>
+          <div className='footer-icon-container' style={{ display: "flex", flexDirection: "row", gap: "25px", alignItems: "center" }}>
             <a href='https://www.facebook.com/BankerLinks/' target="_blank" rel="noopener noreferrer">
-              <img className='contact-card-icon' style={{ maxWidth: "50px" }} src={F} alt="Facebook" />
+              <img className='contact-card-icon' style={{ maxWidth: "35px" }} src={F} alt="Facebook" />
             </a>
             <a href='https://lu.linkedin.com/company/bankerlinks' target="_blank" rel="noopener noreferrer">
-              <img className='contact-card-icon' style={{ maxWidth: "50px" }} src={L} alt="LinkedIn" />
+              <img className='contact-card-icon' style={{ maxWidth: "35px" }} src={L} alt="LinkedIn" />
+            </a>
+            <a href='https://www.instagram.com/bankerlinks.lu/' target="_blank" rel="noopener noreferrer">
+              <img className='contact-card-icon' style={{ maxWidth: "35px" }} src={I} alt="Instagram" />
+            </a>
+            <a href='http://www.twitter.com/bankerlinks' target="_blank" rel="noopener noreferrer">
+              <img className='contact-card-icon' style={{ maxWidth: "35px" }} src={T} alt="Twitter" />
             </a>
           </div>
         </div>
@@ -78,7 +87,8 @@ const Footer = () => {
           <h6>Contact us</h6>
           <p>info@bankerlinks.com</p>
           <p>+352 621 405 208</p>
-          <p>9, rue du Laboratoire, L-1911 Luxembourg</p>
+          <span>9, Rue du Laboratoire,
+          <p>L-1911 Luxembourg</p></span>
         </div>
         <div className='navigation-footer'>
           <a href="#home" onClick={(e) => handleNavigation(e, 'home')} className="footer-link">

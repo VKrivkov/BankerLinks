@@ -36,7 +36,7 @@ const Welcome = ({}) => {
         <Card
             header = "Collaborate"
             text = "BankerLinks allows secure collaboration between financial services across the financial industry."
-            color='#2D3B97'
+            color='#181F4F'
             pathToIcon = {Icon1}
         />
         <Card
@@ -48,7 +48,7 @@ const Welcome = ({}) => {
         <Card
             header = "Get notified"
             text = "BankerLinks notifies you on important information updates within your financial services network."
-            color='#2D3B97'
+            color='#181F4F'
             pathToIcon = {Icon3}
         />
       </div>
